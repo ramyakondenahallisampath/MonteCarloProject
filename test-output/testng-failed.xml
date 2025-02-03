@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testScripts.EnteringPincode">
+        <methods>
+          <include name="openApp"/>
+          <include name="closeApp"/>
+          <include name="Testcase2"/>
+        </methods>
+      </class> <!-- testScripts.EnteringPincode -->
+      <class name="testScripts.WishlistProduct">
+        <methods>
+          <include name="openApp"/>
+          <include name="Testcase7"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- testScripts.WishlistProduct -->
+      <class name="testScripts.VerifyProductAdded">
+        <methods>
+          <include name="openApp"/>
+          <include name="Testcase3"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- testScripts.VerifyProductAdded -->
+      <class name="testScripts.Addcart">
+        <methods>
+          <include name="openApp"/>
+          <include name="closeApp"/>
+          <include name="Testcase8"/>
+        </methods>
+      </class> <!-- testScripts.Addcart -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
