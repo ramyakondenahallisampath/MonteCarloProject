@@ -24,7 +24,7 @@ public class StoleProduct_Page {
 		
 		wishlist.click();
 	}
-	 public void enterMail(String email){
+	public void enterMail(String email){
 			enterEmail.sendKeys(email);
 	 }
 		public void clickAdd()
